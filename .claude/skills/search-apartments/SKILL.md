@@ -10,6 +10,10 @@ Search for NYC apartments matching these criteria:
 - **Rent**: Under $4,700/month
 - **Required amenities**: floor-to-ceiling windows, in-unit washer/dryer, gym, parking for a car AND motorcycle
 - **Preferred**: highrise, walk-in closet, balcony
+- **Lifestyle amenities to note** (not dealbreakers, but major pluses):
+  - Piano or music room
+  - Co-working space / business center / library lounge
+  - Standout gym features (pool, rock climbing, basketball, etc.)
 
 ## Arguments
 
@@ -33,6 +37,7 @@ $ARGUMENTS should specify a neighborhood, borough, or specific building name. If
    - Rent range for qualifying units
    - Which required amenities are confirmed vs unconfirmed
    - Parking situation (car + motorcycle — note if motorcycle parking is unclear)
+   - Lifestyle amenities (write a brief paragraph noting): piano/music room, gym highlights (pool, climbing, basketball), co-working/business center
    - Any deal-breakers or notable pros/cons
 
 5. Ask the user if they want to add any candidates to the relevant markdown file.

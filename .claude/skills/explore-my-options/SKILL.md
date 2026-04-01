@@ -37,14 +37,35 @@ Nice-to-have: highrise, walk-in closet, balcony.
 Group by borough. For each building show only units that PASS or are POSSIBLE — skip buildings with no qualifying units entirely.
 
 **Building Name** — Neighborhood
-| Unit | Price | Beds | Status | Notes |
-|---|---|---|---|---|
-| #XYZ | $X,XXX/mo | 1BR+den | ✅ PASS | Balcony, walk-in closet |
-| #ABC | $X,XXX/mo | 2BR | ⚠️ POSSIBLE | Den unconfirmed, parking unconfirmed |
+| Unit | Price | Beds | Status | Link | Notes |
+|---|---|---|---|---|---|
+| #XYZ | $X,XXX/mo | 1BR+den | ✅ PASS | [View](https://streeteasy.com/building/building-name/xyz) | Balcony, walk-in closet |
+| #ABC | $X,XXX/mo | 2BR | ⚠️ POSSIBLE | [View](https://streeteasy.com/building/building-name/abc) | Den unconfirmed |
 
 - StreetEasy: [link]
 
 At the end: summary count of PASS units, POSSIBLE units, and buildings with nothing available.
+
+## Building Notes
+
+For each building, include a brief paragraph right after the unit table and bullet points summarizing lifestyle amenities you found (major pluses to call out):
+
+- **Piano / Music Room**
+- **Gym Highlights** — Pool, rock climbing, basketball, sauna, etc.
+- **Co-working** — Business center, library lounge, shared workspace
+
+Only mention amenities you have confirmed information about. Do not mention unknowns or "call to confirm" — this report is for what we know now.
+
+Example format:
+
+**Building Name** — Neighborhood
+| Unit | Price | Beds | Status | Link | Notes |
+|---|---|---|---|---|---|
+| #XYZ | $X,XXX/mo | 1BR+den | ✅ PASS | [View](url) | Balcony |
+
+- StreetEasy: [link]
+
+> Gym features a rock climbing wall, cold plunge, and sauna. Has a library lounge for co-working.
 
 ## Save Results
 
