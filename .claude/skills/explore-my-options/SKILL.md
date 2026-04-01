@@ -1,27 +1,47 @@
 ---
 name: explore-my-options
-description: Show a quick-reference summary of all active apartment candidates with links, prices, and one-line descriptions. Use when the user wants an overview of current options or wants to browse what's been found so far.
+description: Fetch live StreetEasy listings for all active apartment candidates and check each unit against the search criteria. Use when the user wants to see which specific units are available right now and whether they actually qualify.
 user-invocable: true
-allowed-tools: Read, WebSearch
+allowed-tools: Read, WebSearch, WebFetch
 ---
 
-Read both search files and produce a clean, scannable overview of every active (non-ruled-out) candidate.
+You are checking live apartment listings against the search criteria. Be thorough — fetch actual listing pages, not just search results.
 
-Files to read:
-- `brooklyn_apartment_search.md`
-- `manhattan_apartment_search.md`
+## Search Criteria (hard requirements)
 
-After reading the files, for each active candidate that does not already have a direct StreetEasy listing URL (i.e. a URL pointing to a specific unit or active listing, not just the building page), do a quick WebSearch for: `site:streeteasy.com "[Building Name]" "[Address]" rentals` to find a direct link to current listings. Prefer a URL that goes directly to available units (e.g. streeteasy.com/buildings/... or streeteasy.com/for-rent/...) over the generic building website.
+- **Rent**: ≤$4,700/mo effective (gross up to ~$5,069/mo qualifies if 1 month free on 14-month lease)
+- **Unit type**: 1BR + den/office, OR 2BR
+- **Windows**: Floor-to-ceiling (required)
+- **Laundry**: In-unit washer/dryer (required)
+- **Gym**: In building (required)
+- **Parking**: On-site (required)
+
+Nice-to-have: highrise, walk-in closet, balcony.
+
+## Steps
+
+1. Read `brooklyn_apartment_search.md` and `manhattan_apartment_search.md` to get the list of active (non-ruled-out) candidates and any known StreetEasy URLs.
+
+2. For each active building:
+   a. If you don't already have a StreetEasy building URL, search for one: `site:streeteasy.com "[Building Name]" rentals`
+   b. WebFetch the StreetEasy building page to get the list of currently available units and their prices
+   c. For each available unit that looks like it could be a 1BR+den or 2BR and is in the price range, note the unit number, price, beds/baths, and any listed features
+
+3. Cross-check each candidate unit against the hard requirements. Mark each as:
+   - ✅ PASS — meets all hard requirements
+   - ⚠️ POSSIBLE — meets most but one or more requirements are unconfirmed (e.g. den layout not listed)
+   - ❌ FAIL — definitively doesn't meet a hard requirement (over budget, no parking, etc.)
 
 ## Output Format
 
-Group by borough. For each active candidate output one block:
+Group by borough. For each building show only units that PASS or are POSSIBLE — skip buildings with no qualifying units entirely.
 
 **Building Name** — Neighborhood
-> One-sentence description of what makes it stand out.
-- Price: $X,XXX/mo (+ notes on concessions if any)
-- Parking: [confirmed/TBD/off-site]
-- Den/Office: [confirmed/unconfirmed]
-- Listings: [direct StreetEasy link to available units, or building website if no StreetEasy found]
+| Unit | Price | Beds | Status | Notes |
+|---|---|---|---|---|
+| #XYZ | $X,XXX/mo | 1BR+den | ✅ PASS | Balcony, walk-in closet |
+| #ABC | $X,XXX/mo | 2BR | ⚠️ POSSIBLE | Den unconfirmed, parking unconfirmed |
 
-Skip anything in "Ruled Out" sections. At the end, add a one-line count: "X candidates total (Y Brooklyn, Z Manhattan)."
+- StreetEasy: [link]
+
+At the end: summary count of PASS units, POSSIBLE units, and buildings with nothing available.
