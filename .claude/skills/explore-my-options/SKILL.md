@@ -2,7 +2,7 @@
 name: explore-my-options
 description: Fetch live StreetEasy listings for all active apartment candidates and check each unit against the search criteria. Use when the user wants to see which specific units are available right now and whether they actually qualify.
 user-invocable: true
-allowed-tools: Read, WebSearch, WebFetch
+allowed-tools: Read, Write, Bash, WebSearch, WebFetch
 ---
 
 You are checking live apartment listings against the search criteria. Be thorough â€” fetch actual listing pages, not just search results.
@@ -45,3 +45,14 @@ Group by borough. For each building show only units that PASS or are POSSIBLE â€
 - StreetEasy: [link]
 
 At the end: summary count of PASS units, POSSIBLE units, and buildings with nothing available.
+
+## Save Results
+
+After generating the report, save it to the `options/` directory:
+
+1. Create the directory if it doesn't exist: `mkdir -p options/`
+2. Save the report as `options/{YYYY-MM-DD}-{neighborhoods}.md`
+   - Use today's date
+   - List neighborhoods covered, lowercase, hyphenated (e.g., `2026-04-01-brooklyn-manhattan.md` or `2026-04-15-hudson-yards-hells-kitchen.md`)
+   - If searching all boroughs, just use `brooklyn-manhattan`
+3. Include the date and neighborhoods at the top of the saved file
