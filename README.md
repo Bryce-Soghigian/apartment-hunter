@@ -4,7 +4,8 @@ A personal apartment search system powered by Claude Code. Fork it, configure yo
 
 ## How It Works
 
-- **`/search-apartments [neighborhood]`** — Slash command that searches for new listings matching your criteria and summarizes candidates
+- **`/search-apartments [neighborhood]`** — Search for new listings matching your criteria and summarize candidates
+- **`/explore-my-options`** — Fetch live StreetEasy listings for all active candidates and check each unit against requirements
 - **Daily cron agent** — Runs automatically each morning, checks existing candidates for status changes, and searches for new leads
 - **Structured markdown files** — All candidates tracked in plain Markdown; easy to read, edit, and version-control
 
@@ -12,28 +13,31 @@ A personal apartment search system powered by Claude Code. Fork it, configure yo
 
 1. **Fork this repo**
 2. **Edit `CLAUDE.md`** — Replace the search criteria with your own (city, budget, must-haves)
-3. **Replace the search files** — Use `template/search.template.md` as a starting point; delete the existing borough files or replace with your own
-4. **Open Claude Code** in your fork — The `/search-apartments` skill will automatically pick up your criteria from `CLAUDE.md`
+3. **Replace the search files** — Create your own `[borough]_apartment_search.md` files based on the existing examples
+4. **Open Claude Code** in your fork — The skills will automatically pick up your criteria from `CLAUDE.md`
 5. **Set up the daily cron** (optional) — See [Scheduling](#scheduling) below
 
 ## File Structure
 
 ```
 ├── CLAUDE.md                        ← Search criteria (edit this to configure)
-├── brooklyn_apartment_search.md     ← Brooklyn candidates (example)
-├── manhattan_apartment_search.md    ← Manhattan candidates (example)
-├── .claude/
-│   └── skills/
-│       └── search-apartments/
-│           └── SKILL.md             ← The search slash command
-└── template/
-    ├── CLAUDE.template.md           ← Blank criteria template
-    └── search.template.md           ← Blank candidate tracking template
+├── brooklyn_apartment_search.md     ← Brooklyn candidates
+├── manhattan_apartment_search.md    ← Manhattan candidates
+├── options/                         ← Saved results from /explore-my-options
+│   └── YYYY-MM-DD-neighborhoods.md  ← Dated snapshots of live availability
+└── .claude/
+    └── skills/
+        ├── search-apartments/
+        │   └── SKILL.md             ← Find new candidates
+        └── explore-my-options/
+            └── SKILL.md             ← Check live listings against criteria
 ```
 
-## Using the Skill
+## Using the Skills
 
-In Claude Code, run:
+### /search-apartments
+
+Search for new candidates in a specific area:
 
 ```
 /search-apartments
@@ -43,6 +47,16 @@ In Claude Code, run:
 ```
 
 Claude will read your current candidates, search for new listings, check parking (including motorcycle if relevant), and ask if you want to add anything to the tracking files.
+
+### /explore-my-options
+
+Check what's actually available right now across all your active candidates:
+
+```
+/explore-my-options
+```
+
+Claude will fetch live StreetEasy listings for every active building, cross-check each unit against your hard requirements, and save a dated report to `options/`.
 
 ## Scheduling
 
@@ -90,5 +104,5 @@ Each search file follows this structure:
 ## Requirements
 
 - [Claude Code](https://claude.ai/code) (CLI or desktop app)
-- Claude Max, Pro, or Team plan for the `/search-apartments` skill
+- Claude Max, Pro, or Team plan for the skills
 - Claude Max or Team plan for the daily cron agent

@@ -10,6 +10,12 @@ This is a personal NYC apartment hunting research repository. No build system, t
 
 - `brooklyn_apartment_search.md` — Brooklyn candidates, parking research, ruled-out buildings
 - `manhattan_apartment_search.md` — Manhattan candidates ranked by value/fit, parking strategy, priority call list
+- `options/` — Dated snapshots from `/explore-my-options` runs (e.g., `2026-04-01-brooklyn-manhattan.md`)
+
+## Skills
+
+- `/search-apartments [area]` — Find new candidates in a neighborhood or research a specific building
+- `/explore-my-options` — Fetch live StreetEasy listings and check each unit against criteria; saves results to `options/`
 
 ## Search Criteria
 
