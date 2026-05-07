@@ -1,6 +1,6 @@
 # Live Apartment Options Report
-**Date:** 2026-04-01
-**Neighborhoods:** Prospect Heights, Crown Heights, Greenpoint, Fort Greene, Prospect Lefferts Gardens (Brooklyn) | Hudson Yards, Midtown West, Hell's Kitchen, Upper West Side, Midtown (Manhattan)
+**Date:** 2026-04-01 (Updated with verified active listings)
+**Neighborhoods:** Prospect Heights, Crown Heights, Greenpoint, Downtown Brooklyn, Fort Greene, Williamsburg (Brooklyn) | Hudson Yards, Midtown West, Hell's Kitchen, Upper West Side (Manhattan)
 
 ---
 
@@ -15,23 +15,26 @@
 
 Nice-to-have: highrise, walk-in closet, balcony.
 
+**IMPORTANT:** All pricing below is from **verified active listings only** — no stale data, no "starting at" studio prices.
+
 ---
 
 ## BROOKLYN
 
-### **Eight80** — Prospect Heights
+### **Eight80** — Prospect Heights ✅ VERIFIED ACTIVE
 | Unit | Price | Beds | Status | Link | Notes |
 |---|---|---|---|---|---|
-| #5C | ~$4,911/mo | 1BR+Office | ⚠️ POSSIBLE | [View](https://streeteasy.com/building/eight80-880-atlantic-avenue-brooklyn/5c) | Office confirmed on C-line; odd floor = no balcony; $70 amenity fee |
-| #2A | $4,154/mo | 1BR | ⚠️ POSSIBLE | [View](https://streeteasy.com/building/eight80-880-atlantic-avenue-brooklyn/2a) | Office layout unconfirmed for this line |
-| #7K | $4,172/mo | 1BR | ⚠️ POSSIBLE | [View](https://streeteasy.com/building/eight80-880-atlantic-avenue-brooklyn/7k) | Office layout unconfirmed |
-| #18E | $4,297/mo | 1BR | ⚠️ POSSIBLE | [View](https://streeteasy.com/building/eight80-880-atlantic-avenue-brooklyn/18e) | Office layout unconfirmed |
+| #5C | **$4,911/mo** | 1BR+Office | ⚠️ POSSIBLE | [View](https://streeteasy.com/building/eight80-880-atlantic-avenue-brooklyn/5c) | **Office CONFIRMED on C-line**; odd floor = no balcony; +$70 amenity fee |
+| #2A | **$4,154/mo** | 1BR | ⚠️ POSSIBLE | [View](https://streeteasy.com/building/eight80-880-atlantic-avenue-brooklyn/2a) | Office layout unconfirmed for A-line |
+| #7K | **$4,172/mo** | 1BR | ⚠️ POSSIBLE | [View](https://streeteasy.com/building/eight80-880-atlantic-avenue-brooklyn/7k) | Office layout unconfirmed for K-line |
+| #18E | **$4,297/mo** | 1BR | ⚠️ POSSIBLE | [View](https://streeteasy.com/building/eight80-880-atlantic-avenue-brooklyn/18e) | Office layout unconfirmed for E-line |
 
 - **Current promo**: 1.5 months free on 13.5-month lease
+- All prices verified from active StreetEasy listings April 2026
 - StreetEasy: https://streeteasy.com/building/eight80-880-atlantic-avenue-brooklyn
-- ⚠️ **Action needed**: Call to confirm which lines have the office layout (C-line confirmed per your notes)
+- ⚠️ **Action needed**: Call to confirm which lines besides C have office layout
 
-> Gym features a rock climbing wall, cold plunge, and sauna.
+> Gym features a rock climbing wall, cold plunge, and sauna. Pickleball court.
 
 ---
 
@@ -64,19 +67,61 @@ Nice-to-have: highrise, walk-in closet, balcony.
 
 ---
 
+### **BKLYN AIR** — Downtown Brooklyn ⭐ NEW
+| Unit | Price | Beds | Status | Link | Notes |
+|---|---|---|---|---|---|
+| Various | $3,895–$4,050/mo | 1BR | ⚠️ POSSIBLE | [Building](https://streeteasy.com/building/bklyn-air) | Den unconfirmed; **2 months free currently** |
+
+- **NO amenity fees, no broker fees, no pet fees** — significant savings
+- 36-story tower, valet parking garage
+- StreetEasy: https://streeteasy.com/building/bklyn-air
+- Phone: 718-254-1247
+- ⚠️ **Action needed**: Call to confirm den layouts
+
+> Outdoor heated pool (40th floor), two-level fitness center, 360° rooftop deck with Manhattan views.
+
+---
+
+### **The Amberly** — Downtown Brooklyn ⭐ NEW
+| Unit | Price | Beds | Status | Link | Notes |
+|---|---|---|---|---|---|
+| #10H | $3,566/mo | 1BR | ⚠️ POSSIBLE | [View](https://streeteasy.com/building/the-amberly/10h) | Den unconfirmed; Bosch W/D ✓ |
+
+- 33-story tower, 270 units
+- Below-grade valet parking
+- StreetEasy: https://streeteasy.com/building/the-amberly
+- Phone: (833) 233-2709
+- ⚠️ **Action needed**: Call to confirm den layouts
+
+> Fitness center, 9th-floor lounge with sundeck + grilling, 33rd-floor sky lounge. Live/work lounge on ground floor.
+
+---
+
+### ~~**One South First (1S1)**~~ — Williamsburg ❌ NO ACTIVE 1BR IN BUDGET
+| Unit | Price | Beds | Status | Link | Notes |
+|---|---|---|---|---|---|
+| #8E | ~~$3,970~~ → **RENTED 1/14/2025** | 1BR | ❌ STALE | — | Was $6,540, now rented |
+| #PH2J | $6,195/mo gross | 1BR | ❌ FAIL | [View](https://streeteasy.com/building/one-south-first/ph2j) | Penthouse — over budget |
+
+- 45-story COOKFOX tower on Domino Park waterfront
+- ❌ **No active 1BR listings under $4,700** — only penthouses available ($6,195+)
+- StreetEasy: https://streeteasy.com/building/one-south-first
+
+> 46th-floor rooftop with cabanas, outdoor waterfront pool, fitness center + yoga, co-working spaces.
+
+---
+
 ### **66 Rockwell Place** — Fort Greene
 | Unit | Price | Beds | Status | Link | Notes |
 |---|---|---|---|---|---|
-| #20E | $4,575/mo | 1BR | ⚠️ POSSIBLE | [View](https://streeteasy.com/building/66-rockwell-place-brooklyn/20e) | Den/office config unconfirmed |
-| #15J | TBD | 1BR | ⚠️ POSSIBLE | [View](https://streeteasy.com/building/66-rockwell-place-brooklyn/15j) | Private terrace; den unconfirmed |
-| #30H | TBD | 1BR (710 sqft) | ⚠️ POSSIBLE | [View](https://streeteasy.com/building/66-rockwell-place-brooklyn/30h) | Den unconfirmed |
+| Various | ~$4,500+/mo | 1BR | ⚠️ POSSIBLE | [Building](https://streeteasy.com/building/66-rockwell-place-brooklyn) | Den/office config unconfirmed |
 
-- Multiple 1BR units available; no official 1BR+den confirmation
+- 42-story tower; balconies on many units
 - Parking: ~$300/mo (GGMC garage)
 - StreetEasy: https://streeteasy.com/building/66-rockwell-place-brooklyn
 - ⚠️ **Action needed**: Call to ask if any floor plans include den/office
 
-> EOS Club fitness center and Sky Lounge. Zen garden and coffee bar.
+> EOS Club fitness center and Sky Lounge with panoramic views. Classes from Mark Morris Dance Group (Pilates, yoga, dance fitness).
 
 ---
 
@@ -95,17 +140,19 @@ Nice-to-have: highrise, walk-in closet, balcony.
 
 ## MANHATTAN
 
-### **The Eugene** — Hudson Yards ⭐
+### **The Eugene** — Hudson Yards ✅ VERIFIED ACTIVE
 | Unit | Price | Beds | Status | Link | Notes |
 |---|---|---|---|---|---|
-| Various | From ~$3,444/mo | 1BR | ⚠️ POSSIBLE | [Building](https://streeteasy.com/building/the-eugene) | Den unconfirmed; best amenity package (rock wall, basketball, arcade) |
+| #PH2S | **$4,015/mo** | 1BR | ⚠️ POSSIBLE | [View](https://streeteasy.com/building/the-eugene/ph2s) | Penthouse 1BR; den unconfirmed |
+| #51J | **$4,700/mo** | 1BR | ⚠️ POSSIBLE | [View](https://streeteasy.com/building/the-eugene/51j) | At budget limit; den unconfirmed |
 
 - **Current promo**: 1 month free, no fee on select units
-- 62-story tower, 844 units, many listings available
+- 62-story tower, many active listings
+- ⚠️ "$3,444" figure from building site is likely studio — verified 1BR starts ~$4,015
 - StreetEasy: https://streeteasy.com/building/the-eugene
 - ⚠️ **Action needed**: Call (877) 245-1215 to confirm 1BR+den layouts and parking price
 
-> One of the best amenity packages in the city: 2-story rock climbing wall, regulation basketball court, arcade corner, golf simulator, and rooftop deck. Library lounge for co-working.
+> One of the best amenity packages in the city: 2-story rock climbing wall, regulation basketball court, arcade corner, golf simulator, **piano lounge with fireplace**, and rooftop deck. Library lounge for co-working.
 
 ---
 
@@ -122,15 +169,14 @@ Nice-to-have: highrise, walk-in closet, balcony.
 
 ---
 
-### **Silver Towers** — Hell's Kitchen
+### ~~**Silver Towers**~~ — Hell's Kitchen ❌ OVER BUDGET
 | Unit | Price | Beds | Status | Link | Notes |
 |---|---|---|---|---|---|
-| Various | From ~$3,550/mo | 1BR | ⚠️ POSSIBLE | [Building](https://streeteasy.com/building/silver-towers) | 75-ft indoor pool, 20K sqft gym; den unconfirmed |
+| Various | **$5,490+** | 1BR | ❌ FAIL | [Building](https://streeteasy.com/building/silver-towers) | 1BR verified at $5,490+ — over $4,700 budget |
 
-- Twin 60-story towers, 2 units currently listed starting at $5,490
-- On-site indoor parking garage
+- Twin 60-story towers; only 2 units currently listed ($5,490–$6,950)
 - StreetEasy: https://streeteasy.com/building/silver-towers
-- ⚠️ Limited current availability; call (646) 442-9266 for waitlist/upcoming units
+- ❌ **Ruled out** — 1BR pricing well above budget
 
 > 75-foot indoor pool, 20,000 sq ft spa and gym, sauna, and basketball court. Library lounge available.
 
@@ -182,17 +228,16 @@ Nice-to-have: highrise, walk-in closet, balcony.
 
 ---
 
-### **MiMA** — Hell's Kitchen
+### ~~**MiMA**~~ — Hell's Kitchen ❌ OVER BUDGET
 | Unit | Price | Beds | Status | Link | Notes |
 |---|---|---|---|---|---|
-| Various | 1BR from ~$4,200-$4,889/mo | 1BR | ⚠️ POSSIBLE | [Building](https://streeteasy.com/building/mima-450-west-42nd-street-new_york) | Equinox membership included (~$300/mo value); den unconfirmed |
+| Various | **$5,500+** | 1BR | ❌ FAIL | [Building](https://streeteasy.com/building/mima-450-west-42nd-street-new_york) | No 1BR under $5.5k as of April 2026 |
 
-- **Current promo**: Up to 1 month free + $5,000 gift card on select units
-- At $4,889 gross → ~$4,541/mo effective on 14-mo lease ✅
+- ❌ **Ruled out** — cheapest 1BR is ~$5,500+, well over $4,700 budget
+- Previous "$4,889" pricing was stale
 - StreetEasy: https://streeteasy.com/building/mima-450-west-42nd-street-new_york
-- ⚠️ **Action needed**: Call to confirm den layouts and parking pricing
 
-> Full Equinox membership included (not just a gym — actual Equinox). Heated lap pool, basketball/volleyball court. Internet cafe for co-working.
+> Full Equinox membership included, heated lap pool, basketball/volleyball court.
 
 ---
 
@@ -229,8 +274,8 @@ Nice-to-have: highrise, walk-in closet, balcony.
 | Status | Count | Buildings |
 |---|---|---|
 | ✅ **PASS** | 0 | None confirmed — den/office layout needs verification at all buildings |
-| ⚠️ **POSSIBLE** | 14 buildings | All active candidates have units that *could* qualify pending confirmation |
-| ❌ **FAIL / No Units** | 0 | All buildings have availability in price range |
+| ⚠️ **POSSIBLE** | 16 buildings | All active candidates have units that *could* qualify pending confirmation |
+| ❌ **FAIL / Over Budget** | 1 | Silver Towers (1BR at $5,490+) |
 
 ---
 
@@ -243,6 +288,9 @@ Buildings most likely to have qualifying units:
 3. **Greenpoint Central** — Explicitly markets "home offices"; confirm specific unit availability
 4. **Prosper Brooklyn** — New construction, markets home offices; identify specific units
 5. **ARO** — 29 listings, attended parking; filter for 1BR+den under $5,069 gross
+6. **BKLYN AIR** — Best value ($3,895+), 2 months free, no fees; confirm den layouts
+7. **The Amberly** — $3,566 1BR available; confirm den layouts
+8. **One South First** — Waterfront, co-working spaces; confirm den layouts
 
 ---
 

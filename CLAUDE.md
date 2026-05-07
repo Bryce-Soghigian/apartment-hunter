@@ -19,9 +19,11 @@ This is a personal NYC apartment hunting research repository. No build system, t
 
 ## Search Criteria
 
-- 1BR + den/office, under $4,700/month
-- Must have: floor-to-ceiling windows, in-unit W/D, gym, parking for both a car and motorcycle
-- Highrise preferred; walk-in closet and balcony nice-to-have
+- 1BR, under $4,700/month
+- Must have: floor-to-ceiling windows, in-unit W/D, gym
+- Parking NOT required from building — car goes to external garage, motorcycle street parked
+- Highrise preferred (flexible for the right downtown spot); den/office, walk-in closet, and balcony nice-to-have
+- **Target neighborhoods:** LES, SoHo, East Village, Nolita, NoHo (downtown preferred over Midtown)
 
 ## Conventions
 

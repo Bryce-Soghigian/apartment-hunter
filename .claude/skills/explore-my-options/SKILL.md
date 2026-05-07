@@ -10,13 +10,13 @@ You are checking live apartment listings against the search criteria. Be thoroug
 ## Search Criteria (hard requirements)
 
 - **Rent**: ≤$4,700/mo effective (gross up to ~$5,069/mo qualifies if 1 month free on 14-month lease)
-- **Unit type**: 1BR + den/office, OR 2BR
+- **Unit type**: 1BR or larger (den/office is a plus, not required)
 - **Windows**: Floor-to-ceiling (required)
 - **Laundry**: In-unit washer/dryer (required)
 - **Gym**: In building (required)
 - **Parking**: On-site (required)
 
-Nice-to-have: highrise, walk-in closet, balcony.
+Nice-to-have: highrise, den/office, walk-in closet, balcony.
 
 ## Steps
 
@@ -24,10 +24,25 @@ Nice-to-have: highrise, walk-in closet, balcony.
 
 2. For each active building:
    a. If you don't already have a StreetEasy building URL, search for one: `site:streeteasy.com "[Building Name]" rentals`
-   b. WebFetch the StreetEasy building page to get the list of currently available units and their prices
-   c. For each available unit that looks like it could be a 1BR+den or 2BR and is in the price range, note the unit number, price, beds/baths, and any listed features
+   b. WebFetch the StreetEasy building page to get the list of currently available units
+   c. For each unit that looks like it could be a 1BR or larger and might be in the price range:
+      - **WebFetch the individual unit listing page** (e.g., `https://streeteasy.com/building/building-name/unit`)
+      - Check for "RENTED", "NO LONGER AVAILABLE", or "IN CONTRACT" — if present, SKIP this unit entirely
+      - Only if the listing is confirmed active: note the unit number, price, beds/baths, and features
 
-3. Cross-check each candidate unit against the hard requirements. Mark each as:
+**CRITICAL: Verify EVERY listing before including it.**
+- **DO NOT trust search result snippets** — they often show stale prices from listings rented months/years ago
+- **DO NOT include any unit in the report without fetching its individual listing page first**
+- If the listing page shows "RENTED [date]", "NO LONGER AVAILABLE", or "IN CONTRACT" → skip it
+- If you cannot verify a listing is active, do not include it
+- If a building has no verified active 1BR listings in budget, note "NO ACTIVE 1BR IN BUDGET"
+
+3. **Verify unit type and pricing:**
+   - Confirm the listing is actually a 1BR (not a studio) — check square footage and layout
+   - If a 1BR price seems suspiciously low (under $3,500 in Manhattan/prime Brooklyn), double-check it's not a studio
+   - "Starting at" prices from building websites are usually studios — find actual 1BR unit listings
+
+4. Cross-check each candidate unit against the hard requirements. Mark each as:
    - ✅ PASS — meets all hard requirements
    - ⚠️ POSSIBLE — meets most but one or more requirements are unconfirmed (e.g. den layout not listed)
    - ❌ FAIL — definitively doesn't meet a hard requirement (over budget, no parking, etc.)
