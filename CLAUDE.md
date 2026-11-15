@@ -10,6 +10,7 @@ This is a personal NYC apartment hunting research repository. No build system, t
 
 - `brooklyn_apartment_search.md` — Brooklyn candidates, parking research, ruled-out buildings
 - `manhattan_apartment_search.md` — Manhattan candidates ranked by value/fit, parking strategy, priority call list
+- `london_apartment_search.md` — London candidates (Nine Elms/Battersea, Chelsea, Fitzrovia, Covent Garden); GBP budget, in-building car + motorcycle parking preferred
 - `options/` — Dated snapshots from `/explore-my-options` runs (e.g., `2026-04-01-brooklyn-manhattan.md`)
 
 ## Skills
